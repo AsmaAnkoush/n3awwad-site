@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25092dd5-f9d8-4c3c-adb4-580850fa8f9a" name="Changes" comment="" />
+    <list default="true" id="25092dd5-f9d8-4c3c-adb4-580850fa8f9a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +19,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "AsmaAnkoush"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/AsmaAnkoush/n3awwad-site.git",
+    "accountId": "6cd76728-8607-4831-84a9-01fff230b098"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -29,6 +46,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/user/Desktop/ElecHub - Copy/public",
     "node.js.detected.package.eslint": "true",
@@ -77,7 +95,7 @@
       <workItem from="1752788217775" duration="105000" />
       <workItem from="1752788331974" duration="11000" />
       <workItem from="1752790454118" duration="1752000" />
-      <workItem from="1752792251562" duration="12988000" />
+      <workItem from="1752792251562" duration="13826000" />
     </task>
     <servers />
   </component>
