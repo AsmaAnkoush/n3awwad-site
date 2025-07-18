@@ -21,7 +21,7 @@ export default function Footer() {
                         rel="noopener noreferrer"
                         aria-label="Facebook"
                     >
-                        <FaFacebookF className="hover:text-orange-400 transition" />
+                        <FaFacebookF className="hover:text-red-400 transition" />
                     </a>
                     <a
                         href="https://www.instagram.com/n3awwad?igsh=MXEwdzhvcXZlMmJ3dQ%3D%3D&utm_source=qr"
@@ -29,7 +29,7 @@ export default function Footer() {
                         rel="noopener noreferrer"
                         aria-label="Instagram"
                     >
-                        <FaInstagram className="hover:text-orange-400 transition" />
+                        <FaInstagram className="hover:text-red-400 transition" />
                     </a>
                     <a
                         href="https://www.tiktok.com/@n3awwad?_t=ZS-8y5F1ibhIVJ&_r=1"
@@ -37,7 +37,7 @@ export default function Footer() {
                         rel="noopener noreferrer"
                         aria-label="TikTok"
                     >
-                        <FaTiktok className="hover:text-orange-400 transition" />
+                        <FaTiktok className="hover:text-red-400 transition" />
                     </a>
                 </div>
 

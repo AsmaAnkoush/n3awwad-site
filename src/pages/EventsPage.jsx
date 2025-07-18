@@ -24,11 +24,11 @@ export default function EventsPage() {
     };
 
     return (
-        <div dir="rtl" className="bg-[#f2fcfb] text-[#3b3b3b] min-h-screen pt-28 px-6">
+        <div dir="rtl" className="bg-[#f5f3ee] text-[#3b3b3b] min-h-screen pt-28 px-6">
             <div className="max-w-4xl mx-auto">
 
                 {/* عنوان الصفحة */}
-                <h1 className="text-4xl font-extrabold text-center mb-6 text-[#cc6600]">
+                <h1 className="text-4xl font-extrabold text-center mb-6 text-[#c02c39]">
                     📆 فعاليات حملة نعوّض اللي فات
                 </h1>
 
@@ -38,8 +38,8 @@ export default function EventsPage() {
                 </p>
 
                 {/* الفعالية الأولى */}
-                <section className="bg-white p-6 shadow rounded-md border-r-4 border-[#cc6600] mb-10">
-                    <h2 className="text-2xl font-bold mb-2 text-[#cc6600]">🚀 تم إطلاق الحملة</h2>
+                <section className="bg-white p-6 shadow rounded-md border-r-4 border-[#c02c39] mb-10">
+                    <h2 className="text-2xl font-bold mb-2 text-[#c02c39]">🚀 تم إطلاق الحملة</h2>
                     <p className="text-gray-700 text-md leading-relaxed">
                         انطلقت حملة "نعوّض اللي فات" رسميًا يوم 17 تموز 2025 على منصات التواصل الاجتماعي، من خلال نشر البوست التعريفي الذي يوضح هدف الحملة ورسالتها.
                     </p>
@@ -50,7 +50,7 @@ export default function EventsPage() {
                     {/* أزرار */}
                     <button
                         onClick={goPrev}
-                        className="absolute right-0 top-1/2 -translate-y-1/2 text-3xl text-[#cc6600] hover:text-[#a55500] px-3 z-10"
+                        className="absolute right-0 top-1/2 -translate-y-1/2 text-3xl text-[#c02c39] hover:text-[#c02c39] px-3 z-10"
                         aria-label="السابق"
                     >
                         ❮
@@ -64,7 +64,7 @@ export default function EventsPage() {
 
                     <button
                         onClick={goNext}
-                        className="absolute left-0 top-1/2 -translate-y-1/2 text-3xl text-[#cc6600] hover:text-[#a55500] px-3 z-10"
+                        className="absolute left-0 top-1/2 -translate-y-1/2 text-3xl text-[#c02c39] hover:text-[#c02c39] px-3 z-10"
                         aria-label="التالي"
                     >
                         ❯
@@ -75,10 +75,8 @@ export default function EventsPage() {
                 <p className="text-center text-sm text-gray-500 mt-4">
                     الصورة {currentIndex + 1} من {eventImages.length}
                 </p>
-
             </div>
 
         </div>
-
     );
 }

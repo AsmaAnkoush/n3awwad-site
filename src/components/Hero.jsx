@@ -10,7 +10,7 @@ export default function Hero() {
                 <img src="/slide1.jpeg" alt="background" className="absolute inset-0 object-cover w-full h-full" />
 
                 {/* طبقة تغطية بلون الخلفية البيج مع شفافية */}
-                <div className="absolute inset-0 bg-[#ebfbfa]/75"></div>
+                <div className="absolute inset-0 bg-[#f5f3ee]/75"></div>
 
                 {/* محتوى فوق الخلفية */}
                 <div className="relative z-10 flex flex-col items-center justify-center h-full px-6 text-center">

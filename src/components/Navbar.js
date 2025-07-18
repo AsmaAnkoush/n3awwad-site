@@ -6,7 +6,7 @@ export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav dir="rtl" className="backdrop-blur-md bg-[#def7f5]/95 text-[#1e1e1e] shadow-md border-b border-[#e0ddd7] fixed top-0 left-0 w-full z-50">
+        <nav dir="rtl" className="backdrop-blur-md bg-[#f6f2e9]/95 text-[#1e1e1e] shadow-md border-b border-[#e0ddd7] fixed top-0 left-0 w-full z-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-16">
 
@@ -18,31 +18,31 @@ export default function Navbar() {
 
                     {/* روابط سطح المكتب */}
                     <ul className="hidden md:flex gap-5 text-sm font-medium items-center">
-                        <li className="flex items-center gap-1 hover:text-[#00b3a4] transition">
+                        <li className="flex items-center gap-1 hover:text-[#c02c39] transition">
                             <FaHome />
                             <Link to="/">الرئيسية</Link>
                         </li>
-                        <li className="flex items-center gap-1 hover:text-[#00b3a4] transition">
+                        <li className="flex items-center gap-1 hover:text-[#c02c39] transition">
                             <FaInfoCircle />
                             <Link to="/about">عن الحملة</Link>
                         </li>
-                        <li className="flex items-center gap-1 hover:text-[#00b3a4] transition">
+                        <li className="flex items-center gap-1 hover:text-[#c02c39] transition">
                             <FaChartBar />
                             <a href="#stats">الإحصائيات</a>
                         </li>
-                        <li className="flex items-center gap-1 hover:text-[#00b3a4] transition">
+                        <li className="flex items-center gap-1 hover:text-[#c02c39] transition">
                             <FaUsers />
                             <a href="#stories">قصص من الواقع</a>
                         </li>
-                        <li className="flex items-center gap-1 hover:text-[#00b3a4] transition">
+                        <li className="flex items-center gap-1 hover:text-[#c02c39] transition">
                             <FaCalendarAlt />
                             <Link to="/events">الفعاليات</Link>
                         </li>
-                        <li className="flex items-center gap-1 hover:text-[#00b3a4] transition">
+                        <li className="flex items-center gap-1 hover:text-[#c02c39] transition">
                             <FaHandsHelping />
                             <Link to="/join">انضموا إلينا</Link>
                         </li>
-                        <li className="flex items-center gap-1 hover:text-[#00b3a4] transition">
+                        <li className="flex items-center gap-1 hover:text-[#c02c39] transition">
                             <FaPhoneAlt />
                             <Link to="/contact">اتصل بنا</Link>
                         </li>

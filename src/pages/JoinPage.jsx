@@ -3,10 +3,10 @@ import { FaFacebookF, FaInstagram, FaTiktok } from "react-icons/fa";
 
 export default function JoinPage() {
     return (
-        <div dir="rtl" className="bg-[#f2fcfb] text-[#2f2f2f] min-h-screen mt-24 py-12 px-6 flex flex-col items-center">
+        <div dir="rtl" className="bg-[#f5f3ee] text-[#2f2f2f] min-h-screen mt-12 py-12 px-6 flex flex-col items-center">
 
             {/* العنوان الرئيسي */}
-            <h1 className="text-4xl font-extrabold text-[#cc6600] mb-6 text-center">
+            <h1 className="text-4xl font-extrabold text-[#b31e2f] mb-6 text-center">
                 🚀 انضموا إلينا – حملة نعوّض اللي فات
             </h1>
 
@@ -14,7 +14,7 @@ export default function JoinPage() {
             <p className="text-lg max-w-3xl text-center leading-loose mb-10">
                 "نعوّض اللي فات" حملة شبابية رقمية بإشراف مركز التعليم المستمر – جامعة بيرزيت، هدفها تعويض الفاقد التعليمي لأطفال مخيم نور شمس.
                 <br />
-                🧡 دعمكم، متابعتكم، ومشاركتكم بيفرقوا معنا!
+                ❤️ دعمكم، متابعتكم، ومشاركتكم بيفرقوا معنا!
                 كل تفاعل هو مساهمة حقيقية في إيصال صوت أطفالنا وحقهم في التعليم.
             </p>
 
@@ -25,10 +25,10 @@ export default function JoinPage() {
                     href="https://www.instagram.com/n3awwad?igsh=MXEwdzhvcXZlMmJ3dQ%3D%3D&utm_source=qr"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-[#fef3eb] border-r-4 border-[#cc6600] rounded-xl shadow hover:shadow-md transition p-6 flex flex-col items-center text-center"
+                    className="bg-[#fef3f3] border-r-4 border-[#b31e2f] rounded-xl shadow hover:shadow-md transition p-6 flex flex-col items-center text-center"
                 >
-                    <FaInstagram className="text-3xl text-[#d63384] mb-3" />
-                    <p className="font-bold text-lg">تابعونا على إنستغرام</p>
+                    <FaInstagram className="text-3xl text-[#b31e2f] mb-3" />
+                    <p className="font-bold text-lg text-[#b31e2f]">تابعونا على إنستغرام</p>
                     <span className="text-sm text-gray-600">@n3awwad</span>
                 </a>
 
@@ -57,11 +57,11 @@ export default function JoinPage() {
             </div>
 
             {/* دعوة ختامية */}
-            <div className="bg-[#fdeacc] border-r-4 border-[#cc6600] p-6 rounded-md shadow text-center max-w-xl">
-                <p className="text-xl font-semibold text-[#4b3e2a] leading-relaxed">
+            <div className="bg-[#fce5e5] border-r-4 border-[#b31e2f] p-6 rounded-md shadow text-center max-w-xl">
+                <p className="text-xl font-semibold text-[#b31e2f] leading-relaxed">
                     كل مشاركة منك بتخلينا أقرب لتعويض الفاقد التعليمي.
                     <br />
-                    🧡 كن جزءًا من الأثر... وانضم للحملة!
+                    ❤️س كن جزءًا من الأثر... وانضم للحملة!
                 </p>
             </div>
 
