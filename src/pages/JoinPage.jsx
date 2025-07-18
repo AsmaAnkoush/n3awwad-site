@@ -61,7 +61,7 @@ export default function JoinPage() {
                 <p className="text-xl font-semibold text-[#b31e2f] leading-relaxed">
                     كل مشاركة منك بتخلينا أقرب لتعويض الفاقد التعليمي.
                     <br />
-                    ❤️س كن جزءًا من الأثر... وانضم للحملة!
+                    ❤️ كن جزءًا من الأثر... وانضم للحملة
                 </p>
             </div>
 

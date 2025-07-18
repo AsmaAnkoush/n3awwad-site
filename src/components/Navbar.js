@@ -13,7 +13,7 @@ export default function Navbar() {
                     {/* شعار الحملة */}
                     <div className="flex items-center gap-3">
                         <img src="/logo.png" alt="شعار الحملة" className="w-10 h-10 rounded-full" />
-                        <span className="font-bold text-xl text-[#c02c39] tracking-tight">نعوّض اللي فات</span>
+                        <span className="font-bold text-3xl text-[#c02c39] tracking-tight">نعوّض اللي فات</span>
                     </div>
 
                     {/* روابط سطح المكتب */}
