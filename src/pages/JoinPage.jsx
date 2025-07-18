@@ -3,7 +3,7 @@ import { FaFacebookF, FaInstagram, FaTiktok } from "react-icons/fa";
 
 export default function JoinPage() {
     return (
-        <div dir="rtl" className="bg-[#fdfbf7] text-[#2f2f2f] min-h-screen mt-24 py-12 px-6 flex flex-col items-center">
+        <div dir="rtl" className="bg-[#f2fcfb] text-[#2f2f2f] min-h-screen mt-24 py-12 px-6 flex flex-col items-center">
 
             {/* العنوان الرئيسي */}
             <h1 className="text-4xl font-extrabold text-[#cc6600] mb-6 text-center">

@@ -24,7 +24,7 @@ export default function EventsPage() {
     };
 
     return (
-        <div dir="rtl" className="bg-[#f5f3ee] text-[#3b3b3b] min-h-screen pt-28 px-6">
+        <div dir="rtl" className="bg-[#f2fcfb] text-[#3b3b3b] min-h-screen pt-28 px-6">
             <div className="max-w-4xl mx-auto">
 
                 {/* عنوان الصفحة */}

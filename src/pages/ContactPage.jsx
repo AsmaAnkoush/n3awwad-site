@@ -14,7 +14,7 @@ const teamMembers = [
 
 export default function ContactPage() {
     return (
-        <div dir="rtl" className="bg-[#fdfbf7] text-[#2f2f2f] min-h-screen pt-28 px-6 flex flex-col items-center">
+        <div dir="rtl" className="bg-[#f2fcfb] text-[#2f2f2f] min-h-screen pt-28 px-6 flex flex-col items-center">
             {/* العنوان الرئيسي */}
             <h1 className="text-4xl font-extrabold text-[#cc6600] mb-8 text-center">
                 👥 أعضاء حملة نعوّض اللي فات
