@@ -4,11 +4,12 @@ import { FaFacebookF } from "react-icons/fa";
 const teamMembers = [
     { name: "ضحى زلوم", facebook: "https://www.facebook.com/search/top?q=%D8%B6%D8%AD%D9%89%20%D8%B2%D9%84%D9%88%D9%85" },
     { name: "أسيل الحروب", facebook: "https://www.facebook.com/aseel.alhroub.2025" },
-    { name: "لانا زبن", facebook: "https://www.facebook.com/lana.zaben.10" },
     { name: "حنين البرغوثي", facebook: "https://www.facebook.com/haneen.barghouty" },
     { name: "لقاء ملوح", facebook: "https://www.facebook.com/leqaa.malluh.2025" },
     { name: "ميار فرسخ", facebook: "https://www.facebook.com/profile.php?id=100084933233931" },
     { name: "أسماء عنكوش", facebook: "https://www.facebook.com/profile.php?id=100004045638337" },
+    { name: "لانا زبن", facebook: "https://www.facebook.com/lana.zaben.10" },
+
 ];
 
 export default function ContactPage() {

@@ -13,15 +13,30 @@ export default function Footer() {
                     <span className="font-bold text-lg text-white">نعوّض اللي فات</span>
                 </div>
 
-                {/* وسط: الأيقونات */}
+                {/* وسط: أيقونات التواصل */}
                 <div className="flex gap-4 text-xl">
-                    <a href="https://facebook.com" target="_blank" rel="noreferrer">
+                    <a
+                        href="https://www.facebook.com/share/16bKC71Fnn/?mibextid=wwXIfr"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Facebook"
+                    >
                         <FaFacebookF className="hover:text-orange-400 transition" />
                     </a>
-                    <a href="https://instagram.com" target="_blank" rel="noreferrer">
+                    <a
+                        href="https://www.instagram.com/n3awwad?igsh=MXEwdzhvcXZlMmJ3dQ%3D%3D&utm_source=qr"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Instagram"
+                    >
                         <FaInstagram className="hover:text-orange-400 transition" />
                     </a>
-                    <a href="https://tiktok.com" target="_blank" rel="noreferrer">
+                    <a
+                        href="https://www.tiktok.com/@n3awwad?_t=ZS-8y5F1ibhIVJ&_r=1"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="TikTok"
+                    >
                         <FaTiktok className="hover:text-orange-400 transition" />
                     </a>
                 </div>

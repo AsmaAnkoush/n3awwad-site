@@ -75,14 +75,15 @@ export default function Navbar() {
                 {isOpen && (
                     <ul className="md:hidden flex flex-col gap-4 mt-4 pb-4 border-t border-gray-300 pt-4 text-right">
                         <li><Link to="/" onClick={() => setIsOpen(false)} className="hover:text-orange-400 transition">الرئيسية</Link></li>
-                        <li><a href="#about" onClick={() => setIsOpen(false)} className="hover:text-orange-400 transition">عن الحملة</a></li>
+                        <li><Link to="/about" onClick={() => setIsOpen(false)} className="hover:text-orange-400 transition">عن الحملة</Link></li>
                         <li><a href="#stats" onClick={() => setIsOpen(false)} className="hover:text-orange-400 transition">الإحصائيات</a></li>
                         <li><a href="#stories" onClick={() => setIsOpen(false)} className="hover:text-orange-400 transition">قصص من الواقع</a></li>
-                        <li><a href="#events" onClick={() => setIsOpen(false)} className="hover:text-orange-400 transition">الفعاليات</a></li>
-                        <li><a href="#join" onClick={() => setIsOpen(false)} className="hover:text-orange-400 transition">انضموا إلينا</a></li>
-                        <li><a href="#contact" onClick={() => setIsOpen(false)} className="hover:text-orange-400 transition">اتصل بنا</a></li>
+                        <li><Link to="/events" onClick={() => setIsOpen(false)} className="hover:text-orange-400 transition">الفعاليات</Link></li>
+                        <li><Link to="/join" onClick={() => setIsOpen(false)} className="hover:text-orange-400 transition">انضموا إلينا</Link></li>
+                        <li><Link to="/contact" onClick={() => setIsOpen(false)} className="hover:text-orange-400 transition">اتصل بنا</Link></li>
                     </ul>
                 )}
+
             </div>
         </nav>
     );
