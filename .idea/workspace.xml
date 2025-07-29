@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25092dd5-f9d8-4c3c-adb4-580850fa8f9a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/public/p2s1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/p2s2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/p2s3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/p2s4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/p2s5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/p2s6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/p2s7.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Hero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hero.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/About.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/ContactPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ContactPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/EventsPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/EventsPage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/JoinPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/JoinPage.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,18 +34,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "AsmaAnkoush"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AsmaAnkoush&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/AsmaAnkoush/n3awwad-site.git",
-    "accountId": "6cd76728-8607-4831-84a9-01fff230b098"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AsmaAnkoush/n3awwad-site.git&quot;,
+    &quot;accountId&quot;: &quot;6cd76728-8607-4831-84a9-01fff230b098&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -49,6 +58,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/user/Desktop/ElecHub - Copy/public",
@@ -98,7 +108,8 @@
       <workItem from="1752788217775" duration="105000" />
       <workItem from="1752788331974" duration="11000" />
       <workItem from="1752790454118" duration="1752000" />
-      <workItem from="1752792251562" duration="22060000" />
+      <workItem from="1752792251562" duration="23027000" />
+      <workItem from="1753825647578" duration="1316000" />
     </task>
     <servers />
   </component>

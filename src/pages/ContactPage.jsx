@@ -6,17 +6,21 @@ const teamMembers = [
     { name: "أسيل الحروب", facebook: "https://www.facebook.com/aseel.alhroub.2025" },
     { name: "حنين البرغوثي", facebook: "https://www.facebook.com/haneen.barghouty" },
     { name: "لقاء ملوح", facebook: "https://www.facebook.com/leqaa.malluh.2025" },
-    { name: "ميار أبو عواد", facebook: "https://www.facebook.com/profile.php?id=100084933233931" },
+    { name: "ميار أبو عواد", facebook: "https://www.fok.com/profile.php?id=100084933233931" },
     { name: "أسماء عنكوش", facebook: "https://www.facebook.com/profile.php?id=100004045638337" },
-    { name: "لانا زبن", facebook: "https://www.facebook.com/lana.zaben.10" },
+    { name: "لانا زبن", facebook: "https://book.com/lana.zaben.10" },
 ];
 
 export default function ContactPage() {
     return (
-        <div dir="rtl" className="bg-[#f5f3ee] text-[#2f2f2f] min-h-screen pt-28 px-6 flex flex-col items-center">
+        <div
+            dir="rtl"
+            className="bg-[#f5f3ee] text-[#2f2f2f] min-h-screen pt-28 px-6 flex flex-col items-center"
+            style={{ fontFamily: "Tahoma, sans-serif" }}
+        >
             {/* العنوان الرئيسي */}
-            <h1 className="text-4xl font-extrabold text-[#b31e2f] mb-8 text-center">
-                👥 أعضاء حملة نعوّض اللي فات
+            <h1 className="text-3xl font-bold text-[#b31e2f] mb-8 text-center">
+                أعضاء فريق حملة نعوّض اللي فات
             </h1>
 
             {/* شبكة البطاقات */}
@@ -44,8 +48,8 @@ export default function ContactPage() {
 
             {/* عبارة ختامية */}
             <div className="bg-[#fbe6e9] border-r-4 border-[#b31e2f] p-6 rounded-md shadow text-center max-w-xl">
-                <p className="text-xl font-semibold text-[#4b3e2a] leading-relaxed">
-                    💬   لأي استفسارات أو تواصل بخصوص الحملة، لا تترددوا بمراسلة أعضاء الفريق مباشرة
+                <p className="text-base font-medium text-[#4b3e2a] leading-relaxed">
+                    لأي استفسارات أو تواصل بخصوص الحملة، يمكنكم مراسلة أعضاء الفريق مباشرة عبر حساباتهم.
                 </p>
             </div>
         </div>

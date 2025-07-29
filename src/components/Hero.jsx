@@ -24,7 +24,7 @@ export default function Hero() {
                         href="#join"
                         className="bg-[#c02c39] hover:bg-[#a92432] text-white px-6 py-2 rounded-full font-bold shadow-md transition"
                     >
-                        🚀 ساهم في تعويض الفاقد التعليمي لأطفال مخيم نور شمس
+                         ساهم في تعويض الفاقد التعليمي لأطفال مخيم نور شمس
                     </a>
                 </div>
             </header>

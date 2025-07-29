@@ -3,18 +3,18 @@ import { FaFacebookF, FaInstagram, FaTiktok } from "react-icons/fa";
 
 export default function JoinPage() {
     return (
-        <div dir="rtl" className="bg-[#f5f3ee] text-[#2f2f2f] min-h-screen mt-12 py-12 px-6 flex flex-col items-center">
+        <div dir="rtl" className="bg-[#f5f3ee] text-[#2f2f2f] min-h-screen mt-12 py-12 px-6 flex flex-col items-center" style={{ fontFamily: "Tahoma, sans-serif" }}>
 
             {/* العنوان الرئيسي */}
             <h1 className="text-4xl font-extrabold text-[#b31e2f] mb-6 text-center">
-                🚀 انضموا إلينا – حملة نعوّض اللي فات
+                انضموا إلينا – حملة نعوّض اللي فات
             </h1>
 
             {/* وصف الحملة */}
-            <p className="text-lg max-w-3xl text-center leading-loose mb-10">
+            <p className="text-base max-w-3xl text-center leading-loose mb-10">
                 "نعوّض اللي فات" حملة شبابية رقمية بإشراف مركز التعليم المستمر – جامعة بيرزيت، هدفها تعويض الفاقد التعليمي لأطفال مخيم نور شمس.
                 <br />
-                ❤️ دعمكم، متابعتكم، ومشاركتكم بيفرقوا معنا!
+                دعمكم، متابعتكم، ومشاركتكم بيفرقوا معنا.
                 كل تفاعل هو مساهمة حقيقية في إيصال صوت أطفالنا وحقهم في التعليم.
             </p>
 
@@ -58,10 +58,10 @@ export default function JoinPage() {
 
             {/* دعوة ختامية */}
             <div className="bg-[#fce5e5] border-r-4 border-[#b31e2f] p-6 rounded-md shadow text-center max-w-xl">
-                <p className="text-xl font-semibold text-[#b31e2f] leading-relaxed">
+                <p className="text-base font-medium text-[#b31e2f] leading-relaxed">
                     كل مشاركة منك بتخلينا أقرب لتعويض الفاقد التعليمي.
                     <br />
-                    ❤️ كن جزءًا من الأثر... وانضم للحملة
+                    كن جزءًا من الأثر... وانضم للحملة.
                 </p>
             </div>
 
