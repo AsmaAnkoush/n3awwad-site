@@ -6,6 +6,7 @@ import AboutPage from './pages/About';
 import EventsPage from "./pages/EventsPage"; // أو حسب مكان الملف
 import JoinPage from './pages/JoinPage'; // حسب مكان الملف
 import ContactPage from "./pages/ContactPage";
+import FromReality from "./pages/FromReality";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
                     <Route path="/events" element={<EventsPage />} />
                     <Route path="/join" element={<JoinPage />} />
                     <Route path="/contact" element={<ContactPage />} />
+                    <Route path="/reality" element={<FromReality />} />
 
                 </Routes>
             </main>

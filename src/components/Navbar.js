@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { FaHome, FaInfoCircle, FaChartBar, FaUsers, FaCalendarAlt, FaHandsHelping, FaPhoneAlt } from 'react-icons/fa';
 import { FaImages } from "react-icons/fa";
 
+
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -31,10 +32,10 @@ export default function Navbar() {
                             <FaChartBar />
                             <a href="#stats">الإحصائيات</a>
                         </li>
-                        <li className="flex items-center gap-1 hover:text-[#c02c39] transition">
-                            <FaUsers />
-                            <a href="#stories">قصص من الواقع</a>
-                        </li>
+                        {/*<li className="flex items-center gap-1 hover:text-[#c02c39] transition">*/}
+                        {/*    <FaUsers />*/}
+                        {/*    <a href="#stories">قصص من الواقع</a>*/}
+                        {/*</li>*/}
                         <li className="flex items-center gap-1 hover:text-[#c02c39] transition">
                             <FaCalendarAlt />
                             <Link to="/events">الفعاليات</Link>

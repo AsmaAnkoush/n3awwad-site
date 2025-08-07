@@ -1,70 +1,118 @@
-import React from "react";
-import { FaFacebookF, FaInstagram, FaTiktok } from "react-icons/fa";
+import { useEffect } from "react";
+import { Link } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
-export default function JoinPage() {
+const galleryImages = [
+    "/images/photo1.jpg",
+    "/images/photo2.jpg",
+    "/images/photo3.jpg",
+    "/images/photo4.jpg",
+    "/images/photo5.jpg",
+];
+
+const FromReality = () => {
+    useEffect(() => {
+        AOS.init({ duration: 1000 });
+    }, []);
+
     return (
-        <div dir="rtl" className="bg-[#f5f3ee] text-[#2f2f2f] min-h-screen mt-12 py-12 px-6 flex flex-col items-center" style={{ fontFamily: "Tahoma, sans-serif" }}>
+        <div className="bg-[#fce5e5] text-gray-800">
+            {/* Hero Section */}
+            <section className="relative h-screen overflow-hidden rounded-b-[60px] shadow-lg">
+                <video autoPlay muted loop className="w-full h-full object-cover brightness-50">
+                    <source src="/videos/intro-destruction.mp4" type="video/mp4" />
+                    المتصفح لا يدعم تشغيل الفيديو.
+                </video>
+                <div className="absolute inset-0 flex items-center justify-center">
+                    <h1 className="text-white text-4xl sm:text-6xl font-bold text-center leading-snug drop-shadow-xl">
+                        من أرض الواقع
+                        <br />
+                        <span className="text-xl block mt-4 font-light">هنا يكبر الأطفال تحت النار</span>
+                    </h1>
+                </div>
+            </section>
 
-            {/* العنوان الرئيسي */}
-            <h1 className="text-4xl font-extrabold text-[#b31e2f] mb-6 text-center">
-                انضموا إلينا – حملة نعوّض اللي فات
-            </h1>
+            {/* Story Blocks */}
+            <section className="max-w-5xl mx-auto px-4 py-16 space-y-20">
+                {/* Block 1 */}
+                <div className="grid md:grid-cols-2 gap-6 items-center bg-white rounded-xl p-6 shadow-md" data-aos="fade-up">
+                    <video controls className="w-full rounded shadow-md">
+                        <source src="/videos/hero-video.mp4" type="video/mp4" />
+                    </video>
+                    <p className="text-lg font-medium">اجتياح المخيم لم يكن لحظة عابرة... بل كابوس يومي</p>
+                </div>
 
-            {/* وصف الحملة */}
-            <p className="text-base max-w-3xl text-center leading-loose mb-10">
-                "نعوّض اللي فات" حملة شبابية رقمية بإشراف مركز التعليم المستمر – جامعة بيرزيت، هدفها تعويض الفاقد التعليمي لأطفال مخيم نور شمس.
-                <br />
-                دعمكم، متابعتكم، ومشاركتكم بيفرقوا معنا.
-                كل تفاعل هو مساهمة حقيقية في إيصال صوت أطفالنا وحقهم في التعليم.
-            </p>
+                {/* Block 2 */}
+                <div className="grid md:grid-cols-2 gap-6 items-center bg-white rounded-xl p-6 shadow-md" data-aos="fade-up">
+                    <p className="text-lg font-medium">هذا كان بيت طفل يحلم بأن يصبح معلّمًا.</p>
+                    <video controls className="w-full rounded shadow-md">
+                        <source src="/videos/house-blast.mp4" type="video/mp4" />
+                    </video>
+                </div>
 
-            {/* صناديق روابط السوشيال */}
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 w-full max-w-4xl mb-16">
+                {/* Block 3 */}
+                <div className="grid md:grid-cols-2 gap-6 items-center bg-white rounded-xl p-6 shadow-md" data-aos="fade-up">
+                    <video controls className="w-full rounded shadow-md">
+                        <source src="/videos/people-fleeing.mp4" type="video/mp4" />
+                    </video>
+                    <p className="text-lg font-medium">العائلات نزحت، لكن الذكريات بقيت تحت الأنقاض.</p>
+                </div>
 
-                <a
-                    href="https://www.instagram.com/n3awwad?igsh=MXEwdzhvcXZlMmJ3dQ%3D%3D&utm_source=qr"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="bg-[#fef3f3] border-r-4 border-[#b31e2f] rounded-xl shadow hover:shadow-md transition p-6 flex flex-col items-center text-center"
-                >
-                    <FaInstagram className="text-3xl text-[#b31e2f] mb-3" />
-                    <p className="font-bold text-lg text-[#b31e2f]">تابعونا على إنستغرام</p>
-                    <span className="text-sm text-gray-600">@n3awwad</span>
-                </a>
+                {/* Block 4 */}
+                <div className="grid md:grid-cols-2 gap-6 items-center bg-white rounded-xl p-6 shadow-md" data-aos="fade-up">
+                    <p className="text-lg font-medium">في غياب المدرسة... صار الركام ملعبهم الوحيد.</p>
+                    <video controls className="w-full rounded shadow-md">
+                        <source src="/videos/kids-on-rubble.mp4" type="video/mp4" />
+                    </video>
+                </div>
 
-                <a
-                    href="https://www.facebook.com/share/16bKC71Fnn/?mibextid=wwXIfr"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="bg-[#eef4ff] border-r-4 border-[#1877f2] rounded-xl shadow hover:shadow-md transition p-6 flex flex-col items-center text-center"
-                >
-                    <FaFacebookF className="text-2xl text-[#1877f2] mb-3" />
-                    <p className="font-bold text-lg">صفحتنا على فيسبوك</p>
-                    <span className="text-sm text-gray-600">نعوّض اللي فات</span>
-                </a>
+                {/* Block 5 */}
+                <div className="grid md:grid-cols-2 gap-6 items-center bg-white rounded-xl p-6 shadow-md" data-aos="fade-up">
+                    <video controls className="w-full rounded shadow-md">
+                        <source src="/videos/kids-speaking.mp4" type="video/mp4" />
+                    </video>
+                    <p className="text-lg font-medium">نريد فقط أن نرجع ندرس... نرجع نضحك.</p>
+                </div>
 
-                <a
-                    href="https://www.tiktok.com/@n3awwad?_t=ZS-8y5F1ibhIVJ&_r=1"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="bg-[#fff7fa] border-r-4 border-[#000000] rounded-xl shadow hover:shadow-md transition p-6 flex flex-col items-center text-center"
-                >
-                    <FaTiktok className="text-3xl text-black mb-3" />
-                    <p className="font-bold text-lg">تابعونا على تيك توك</p>
-                    <span className="text-sm text-gray-600">@n3awwad</span>
-                </a>
+                {/* Block 6 */}
+                <div className="grid md:grid-cols-2 gap-6 items-center bg-white rounded-xl p-6 shadow-md" data-aos="fade-up">
+                    <p className="text-lg font-medium">حتى رياض الأطفال لم تسلم من القصف.</p>
+                    <video controls className="w-full rounded shadow-md">
+                        <source src="/videos/kindergarten.mp4" type="video/mp4" />
+                    </video>
+                </div>
+            </section>
 
-            </div>
+            {/* Photo Gallery */}
+            <section className="py-16" data-aos="fade-up">
+                <h2 className="text-3xl font-bold text-center mb-12">لقطات من قلب الحدث</h2>
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-4 max-w-6xl mx-auto">
+                    {galleryImages.map((img, idx) => (
+                        <img
+                            key={idx}
+                            src={img}
+                            alt={`مشهد ${idx + 1}`}
+                            className="rounded-lg shadow-md hover:scale-105 transition-transform duration-300"
+                        />
+                    ))}
+                </div>
+            </section>
 
-            {/* دعوة ختامية */}
-            <div className="bg-[#fce5e5] border-r-4 border-[#b31e2f] p-6 rounded-md shadow text-center max-w-xl">
-                <p className="text-base font-medium text-[#b31e2f] leading-relaxed">
-                    كل مشاركة منك بتخلينا أقرب لتعويض الفاقد التعليمي.
-                    <br />
-                    كن جزءًا من الأثر... وانضم للحملة.
+            {/* CTA */}
+            <section className="text-center py-16 bg-white mt-8 rounded-t-[60px] shadow-inner">
+                <p className="text-lg max-w-xl mx-auto mb-6">
+                    في مخيم نور شمس، التعليم لم يكن مجرد حق... بل تحدٍ يومي. خلف كل صورة، حلم صغير لم يكتمل بعد.
                 </p>
-            </div>
-
+                <Link
+                    to="/join"
+                    className="bg-[#c02c39] text-white px-10 py-4 rounded-full text-lg font-semibold hover:bg-red-700 transition"
+                >
+                    ساعدونا نعيد بناء الأمل
+                </Link>
+            </section>
         </div>
     );
-}
+};
+
+export default FromReality;

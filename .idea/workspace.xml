@@ -5,8 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25092dd5-f9d8-4c3c-adb4-580850fa8f9a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/about9.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/invasion.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/videos/building-destruction.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/videos/gunfire.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/videos/hero-video.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/videos/kids-after-withdrawal.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/FromReality.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/about1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/about1.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/about2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/about2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/About.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/JoinPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/JoinPage.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,24 +64,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/ElecHub - Copy/public&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/user/Desktop/ElecHub/src/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/user/Desktop/ElecHub - Copy/public/videos",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/user/Desktop/ElecHub/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\ElecHub - Copy\public\videos" />
       <recent name="C:\Users\user\Desktop\ElecHub - Copy\public" />
       <recent name="C:\Users\user\Desktop\ElecHub\src" />
       <recent name="C:\Users\user\Desktop\ElecHub\public" />
@@ -100,7 +122,7 @@
       <workItem from="1752792251562" duration="23027000" />
       <workItem from="1753825647578" duration="1589000" />
       <workItem from="1754172307185" duration="35000" />
-      <workItem from="1754597636564" duration="428000" />
+      <workItem from="1754597636564" duration="8486000" />
     </task>
     <servers />
   </component>

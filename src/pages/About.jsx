@@ -13,7 +13,7 @@ export default function AboutPage() {
                         className="rounded border border-[#ccc] object-cover h-72 w-full"
                     />
                     <img
-                        src="/about2.jpeg"
+                        src="/about9.jpeg"
                         alt="مخيم نور شمس"
                         className="rounded border border-[#ccc] object-cover h-72 w-full"
                     />
