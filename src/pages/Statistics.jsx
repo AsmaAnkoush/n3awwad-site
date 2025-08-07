@@ -64,7 +64,7 @@ export default function Statistics() {
                     href="/join"
                     className="bg-[#c02c39] text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-red-700 transition"
                 >
-                    ادعموا التعليم الآن
+                    ادعموا حملة نعوض اللي فات
                 </a>
             </div>
         </div>

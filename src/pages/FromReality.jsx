@@ -19,26 +19,15 @@ const FromReality = () => {
     return (
         <div dir="rtl" className="bg-[#f5f3ee] text-gray-800">
             {/* Hero Section with Video */}
-            <section className="relative h-screen overflow-hidden rounded-b-[60px] shadow-lg">
-                <video
-                    className="absolute top-0 left-0 w-full h-full object-cover opacity-50"
-                    autoPlay
-                    muted
-                    loop
-                >
-                    <source src="/videos/hero-video.mp4" type="video/mp4" />
-                </video>
-                <div className="relative z-10 flex flex-col justify-center items-center h-full text-center px-4">
-                    <h1 className="text-4xl sm:text-6xl font-extrabold text-white drop-shadow-lg">
-                        من أرض الواقع
-                    </h1>
-                    <p className="text-base sm:text-xl mt-6 font-semibold text-white drop-shadow max-w-3xl mx-auto text-center leading-relaxed">
-                        مشاهد حصرية من اجتياح المخيم، حيث غابت المدارس وتوقّف التعليم، مما حرم الأطفال من حقهم في مستقبل آمن.
-                        الفاقد التعليمي في مخيم نور شمس لم يكن رقماً... بل قصصًا مؤلمة لأطفال توقّفت حياتهم فجأة.
-                        هذه المشاهد كانت الشرارة التي أطلقت حملة "نعوّض اللي فات" لدعم تعليم الأطفال في المخيم.
-                    </p>
-                </div>
+            <section className="bg-[#c02c39] text-white py-24 px-4 text-center rounded-b-[60px] shadow-lg">
+                <h1 className="text-4xl sm:text-6xl font-extrabold mb-6">من أرض الواقع</h1>
+                <p className="text-base sm:text-xl font-semibold max-w-3xl mx-auto leading-relaxed">
+                    مشاهد حصرية من اجتياح المخيم، حيث غابت المدارس وتوقّف التعليم، مما حرم الأطفال من حقهم في مستقبل آمن.
+                    الفاقد التعليمي في مخيم نور شمس لم يكن رقماً... بل قصصًا مؤلمة لأطفال توقّفت حياتهم فجأة.
+                    هذه المشاهد كانت الشرارة التي أطلقت حملة "نعوّض اللي فات" لدعم تعليم الأطفال في المخيم.
+                </p>
             </section>
+
 
             {/* Story Blocks */}
             <section className="max-w-5xl mx-auto px-4 py-16 space-y-20">
