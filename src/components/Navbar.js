@@ -8,7 +8,7 @@ export default function Navbar() {
     const navLinks = [
         { to: '/', label: 'الرئيسية', icon: <FaHome /> },
         { to: '/about', label: 'عن الحملة', icon: <FaInfoCircle /> },
-        { href: '#stats', label: 'الإحصائيات', icon: <FaChartBar /> },
+        { to: '/statistics', label: 'الإحصائيات', icon: <FaChartBar /> },
         { to: '/reality', label: 'من أرض الواقع', icon: <FaImages /> },
         { to: '/events', label: 'الفعاليات', icon: <FaCalendarAlt /> },
         { to: '/join', label: 'انضموا إلينا', icon: <FaHandsHelping /> },
@@ -76,15 +76,7 @@ export default function Navbar() {
                                 )}
                             </li>
                         ))}
-                        <li>
-                            <a
-                                href="#join"
-                                onClick={() => setIsOpen(false)}
-                                className="bg-[#c02c39] hover:bg-[#a92432] text-white px-4 py-1 rounded-full shadow-md transition text-center block w-fit mx-auto"
-                            >
-                                🚀 ادعم الحملة
-                            </a>
-                        </li>
+
                     </ul>
                 )}
             </div>

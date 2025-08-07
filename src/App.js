@@ -8,6 +8,7 @@ import JoinPage from './pages/JoinPage'; // حسب مكان الملف
 import ContactPage from "./pages/ContactPage";
 import FromReality from "./pages/FromReality";
 
+import Statistics from "./pages/Statistics";
 
 function App() {
     return (
@@ -22,6 +23,7 @@ function App() {
                     <Route path="/join" element={<JoinPage />} />
                     <Route path="/contact" element={<ContactPage />} />
                     <Route path="/reality" element={<FromReality />} />
+                    <Route path="/statistics" element={<Statistics />} />
 
                 </Routes>
             </main>
