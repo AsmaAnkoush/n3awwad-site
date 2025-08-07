@@ -69,13 +69,7 @@ const FromReality = () => {
                 </div>
 
                 {/* New Block about Educational Loss */}
-                <div className="grid md:grid-cols-2 gap-6 items-center bg-white rounded-xl p-6 shadow-md" data-aos="fade-up">
-                    <img src="/images/school-destruction.jpg" alt="دمار المدارس" className="w-full rounded shadow-md" />
-                    <p className="text-lg font-medium">
-                        مع كل يوم اجتياح، خسر طلاب مخيم نور شمس فرصة جديدة للتعلّم. انقطاع مستمر، بنية تعليمية مدمّرة، وطفولة تُنسى في الزحام.
-                        تشير تقديرات أولية إلى أن مئات الطلاب تأثروا بشكل مباشر، مما يخلق فجوة تعليمية يصعب تعويضها دون تدخل حقيقي ومستمر.
-                    </p>
-                </div>
+
 
                 {/* Photo Gallery */}
                 <div className="bg-white rounded-xl p-6 shadow-md" data-aos="fade-up">
