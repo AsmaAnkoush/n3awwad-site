@@ -57,6 +57,8 @@ const FromReality = () => {
                     <p className="text-lg font-medium">
                         في واحدة من أوسع عمليات الهدم، يواصل جيش الاحتلال تدمير المباني في مخيم نور شمس بطولكرم.
                     </p>
+                    <h1>اختبار التحديث</h1>
+
                 </div>
 
                 <div className="grid md:grid-cols-2 gap-6 items-center bg-white rounded-xl p-6 shadow-md" data-aos="fade-up">
