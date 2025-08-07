@@ -1,17 +1,23 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { FaHome, FaInfoCircle, FaChartBar, FaUsers, FaCalendarAlt, FaHandsHelping, FaPhoneAlt } from 'react-icons/fa';
-import { FaImages } from "react-icons/fa";
-
+import { FaHome, FaInfoCircle, FaChartBar, FaCalendarAlt, FaHandsHelping, FaPhoneAlt, FaImages } from 'react-icons/fa';
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
+
+    const navLinks = [
+        { to: '/', label: 'الرئيسية', icon: <FaHome /> },
+        { to: '/about', label: 'عن الحملة', icon: <FaInfoCircle /> },
+        { href: '#stats', label: 'الإحصائيات', icon: <FaChartBar /> },
+        { to: '/reality', label: 'من أرض الواقع', icon: <FaImages /> },
+        { to: '/events', label: 'الفعاليات', icon: <FaCalendarAlt /> },
+        { to: '/join', label: 'انضموا إلينا', icon: <FaHandsHelping /> },
+    ];
 
     return (
         <nav dir="rtl" className="backdrop-blur-md bg-[#f6f2e9]/95 text-[#1e1e1e] shadow-md border-b border-[#e0ddd7] fixed top-0 left-0 w-full z-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-16">
-
                     {/* شعار الحملة */}
                     <div className="flex items-center gap-3">
                         <img src="/logo.png" alt="شعار الحملة" className="w-10 h-10 rounded-full" />
@@ -20,36 +26,16 @@ export default function Navbar() {
 
                     {/* روابط سطح المكتب */}
                     <ul className="hidden md:flex gap-5 text-sm font-medium items-center">
-                        <li className="flex items-center gap-1 hover:text-[#c02c39] transition">
-                            <FaHome />
-                            <Link to="/">الرئيسية</Link>
-                        </li>
-                        <li className="flex items-center gap-1 hover:text-[#c02c39] transition">
-                            <FaInfoCircle />
-                            <Link to="/about">عن الحملة</Link>
-                        </li>
-                        <li className="flex items-center gap-1 hover:text-[#c02c39] transition">
-                            <FaChartBar />
-                            <a href="#stats">الإحصائيات</a>
-                        </li>
-                        {/*<li className="flex items-center gap-1 hover:text-[#c02c39] transition">*/}
-                        {/*    <FaUsers />*/}
-                        {/*    <a href="#stories">قصص من الواقع</a>*/}
-                        {/*</li>*/}
-                        <li className="flex items-center gap-1 hover:text-[#c02c39] transition">
-                            <FaCalendarAlt />
-                            <Link to="/events">الفعاليات</Link>
-                        </li>
-                        <li className="flex items-center gap-1 hover:text-[#c02c39] transition">
-                            <FaImages />
-                            <Link to="/reality">من أرض الواقع</Link>
-                        </li>
-
-                        <li className="flex items-center gap-1 hover:text-[#c02c39] transition">
-                            <FaHandsHelping />
-                            <Link to="/join">انضموا إلينا</Link>
-                        </li>
-
+                        {navLinks.map((link, index) => (
+                            <li key={index} className="flex items-center gap-1 hover:text-[#c02c39] transition">
+                                {link.icon}
+                                {link.to ? (
+                                    <Link to={link.to}>{link.label}</Link>
+                                ) : (
+                                    <a href={link.href}>{link.label}</a>
+                                )}
+                            </li>
+                        ))}
                         <li>
                             <a
                                 href="#join"
@@ -77,13 +63,28 @@ export default function Navbar() {
                 {/* روابط الموبايل */}
                 {isOpen && (
                     <ul className="md:hidden flex flex-col gap-4 mt-4 pb-4 border-t border-[#ddd] pt-4 text-right text-[#1e1e1e]">
-                        <li><Link to="/" onClick={() => setIsOpen(false)} className="hover:text-[#00b3a4]">الرئيسية</Link></li>
-                        <li><Link to="/about" onClick={() => setIsOpen(false)} className="hover:text-[#00b3a4]">عن الحملة</Link></li>
-                        <li><a href="#stats" onClick={() => setIsOpen(false)} className="hover:text-[#00b3a4]">الإحصائيات</a></li>
-                        <li><a href="#stories" onClick={() => setIsOpen(false)} className="hover:text-[#00b3a4]">قصص من الواقع</a></li>
-                        <li><Link to="/events" onClick={() => setIsOpen(false)} className="hover:text-[#00b3a4]">الفعاليات</Link></li>
-                        <li><Link to="/join" onClick={() => setIsOpen(false)} className="hover:text-[#00b3a4]">انضموا إلينا</Link></li>
-                        <li><Link to="/contact" onClick={() => setIsOpen(false)} className="hover:text-[#00b3a4]">اتصل بنا</Link></li>
+                        {navLinks.map((link, index) => (
+                            <li key={index}>
+                                {link.to ? (
+                                    <Link to={link.to} onClick={() => setIsOpen(false)} className="hover:text-[#c02c39] flex items-center gap-2">
+                                        {link.icon} {link.label}
+                                    </Link>
+                                ) : (
+                                    <a href={link.href} onClick={() => setIsOpen(false)} className="hover:text-[#c02c39] flex items-center gap-2">
+                                        {link.icon} {link.label}
+                                    </a>
+                                )}
+                            </li>
+                        ))}
+                        <li>
+                            <a
+                                href="#join"
+                                onClick={() => setIsOpen(false)}
+                                className="bg-[#c02c39] hover:bg-[#a92432] text-white px-4 py-1 rounded-full shadow-md transition text-center block w-fit mx-auto"
+                            >
+                                🚀 ادعم الحملة
+                            </a>
+                        </li>
                     </ul>
                 )}
             </div>
