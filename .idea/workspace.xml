@@ -4,30 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25092dd5-f9d8-4c3c-adb4-580850fa8f9a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/about9.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/invasion.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photo1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photo2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photo3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photo4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photo5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/videos/building-destruction.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/videos/gunfire.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/videos/hero-video.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/videos/kids-after-withdrawal.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/FromReality.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/about1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/about1.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/about2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/about2.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/About.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/JoinPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/JoinPage.jsx" afterDir="false" />
-    </list>
+    <list default="true" id="25092dd5-f9d8-4c3c-adb4-580850fa8f9a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,7 +99,7 @@
       <workItem from="1752792251562" duration="23027000" />
       <workItem from="1753825647578" duration="1589000" />
       <workItem from="1754172307185" duration="35000" />
-      <workItem from="1754597636564" duration="8486000" />
+      <workItem from="1754597636564" duration="8823000" />
     </task>
     <servers />
   </component>
