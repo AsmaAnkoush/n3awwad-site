@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaHome, FaInfoCircle, FaChartBar, FaUsers, FaCalendarAlt, FaHandsHelping, FaPhoneAlt } from 'react-icons/fa';
+import { FaImages } from "react-icons/fa";
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -39,13 +40,15 @@ export default function Navbar() {
                             <Link to="/events">الفعاليات</Link>
                         </li>
                         <li className="flex items-center gap-1 hover:text-[#c02c39] transition">
+                            <FaImages />
+                            <Link to="/reality">من أرض الواقع</Link>
+                        </li>
+
+                        <li className="flex items-center gap-1 hover:text-[#c02c39] transition">
                             <FaHandsHelping />
                             <Link to="/join">انضموا إلينا</Link>
                         </li>
-                        <li className="flex items-center gap-1 hover:text-[#c02c39] transition">
-                            <FaPhoneAlt />
-                            <Link to="/contact">اتصل بنا</Link>
-                        </li>
+
                         <li>
                             <a
                                 href="#join"
