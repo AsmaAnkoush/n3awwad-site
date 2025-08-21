@@ -24,10 +24,24 @@ export default function Hero() {
                         href="#join"
                         className="bg-[#c02c39] hover:bg-[#a92432] text-white px-6 py-2 rounded-full font-bold shadow-md transition"
                     >
-                         ساهم في تعويض الفاقد التعليمي لأطفال مخيم نور شمس
+                        ساهم في تعويض الفاقد التعليمي لأطفال مخيم نور شمس
                     </a>
                 </div>
             </header>
+
+            {/* قسم الدعوة لمعرض المنطار */}
+            <section className="bg-white py-12 px-6 flex flex-col items-center text-center">
+                <h2 className="text-2xl md:text-3xl font-bold text-[#c02c39] mb-6">
+                    دعوة لمعرض المنطار – جامعة بيرزيت
+                </h2>
+
+                {/* صورة الدعوة */}
+                <img
+                    src="/invite-exhibition.jpg" // ← غيّر الاسم حسب صورة الدعوة عندك
+                    alt="دعوة معرض المنطار"
+                    className="max-w-md w-full rounded-lg shadow-lg border"
+                />
+            </section>
 
             <Footer />
         </div>

@@ -1,6 +1,15 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { FaHome, FaInfoCircle, FaChartBar, FaCalendarAlt, FaHandsHelping, FaPhoneAlt, FaImages } from 'react-icons/fa';
+import {
+    FaHome,
+    FaInfoCircle,
+    FaChartBar,
+    FaCalendarAlt,
+    FaHandsHelping,
+    FaPhoneAlt,
+    FaImages,
+    FaMicrophone
+} from 'react-icons/fa';
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -10,8 +19,13 @@ export default function Navbar() {
         { to: '/about', label: 'عن الحملة', icon: <FaInfoCircle /> },
         { to: '/statistics', label: 'الإحصائيات', icon: <FaChartBar /> },
         { to: '/reality', label: 'من أرض الواقع', icon: <FaImages /> },
+
+        { to: '/voices', label: 'أصوات من المخيم', icon: <FaMicrophone /> },
+        { to: '/legal', label: 'الحق والقانون', icon: <FaInfoCircle /> },
+// 👈 جديد
         { to: '/events', label: 'الفعاليات', icon: <FaCalendarAlt /> },
         { to: '/join', label: 'انضموا إلينا', icon: <FaHandsHelping /> },
+
     ];
 
     return (
@@ -27,24 +41,22 @@ export default function Navbar() {
                     {/* روابط سطح المكتب */}
                     <ul className="hidden md:flex gap-5 text-sm font-medium items-center">
                         {navLinks.map((link, index) => (
-                            <li key={index} className="flex items-center gap-1 hover:text-[#c02c39] transition">
-                                {link.icon}
-                                {link.to ? (
-                                    <Link to={link.to}>{link.label}</Link>
-                                ) : (
-                                    <a href={link.href}>{link.label}</a>
-                                )}
+                            <li key={index} className="hover:text-[#c02c39] transition">
+                                <Link
+                                    to={link.to}
+                                    className="inline-flex items-center gap-2 whitespace-nowrap leading-none"
+                                >
+                                    <span className="flex-shrink-0 text-base">{link.icon}</span>
+                                    <span>{link.label}</span>
+                                </Link>
                             </li>
                         ))}
                         <li>
-                            <a
-                                href="#join"
-                                className="bg-[#c02c39] hover:bg-[#a92432] text-white px-4 py-1 rounded-full shadow-md transition"
-                            >
-                                🚀 ادعم الحملة
-                            </a>
+
+
                         </li>
                     </ul>
+
 
                     {/* زر الموبايل */}
                     <div className="md:hidden">
@@ -65,20 +77,19 @@ export default function Navbar() {
                     <ul className="md:hidden flex flex-col gap-4 mt-4 pb-4 border-t border-[#ddd] pt-4 text-right text-[#1e1e1e]">
                         {navLinks.map((link, index) => (
                             <li key={index}>
-                                {link.to ? (
-                                    <Link to={link.to} onClick={() => setIsOpen(false)} className="hover:text-[#c02c39] flex items-center gap-2">
-                                        {link.icon} {link.label}
-                                    </Link>
-                                ) : (
-                                    <a href={link.href} onClick={() => setIsOpen(false)} className="hover:text-[#c02c39] flex items-center gap-2">
-                                        {link.icon} {link.label}
-                                    </a>
-                                )}
+                                <Link
+                                    to={link.to}
+                                    onClick={() => setIsOpen(false)}
+                                    className="flex items-center gap-2 whitespace-nowrap"
+                                >
+                                    <span className="flex-shrink-0">{link.icon}</span>
+                                    <span>{link.label}</span>
+                                </Link>
                             </li>
                         ))}
-
                     </ul>
                 )}
+
             </div>
         </nav>
     );

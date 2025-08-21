@@ -7,6 +7,9 @@ import EventsPage from "./pages/EventsPage"; // أو حسب مكان الملف
 import JoinPage from './pages/JoinPage'; // حسب مكان الملف
 import ContactPage from "./pages/ContactPage";
 import FromReality from "./pages/FromReality";
+import VoicesPage from './pages/VoicesPage';
+import LegalPage from './pages/LegalPage';
+
 
 import Statistics from "./pages/Statistics";
 
@@ -24,6 +27,8 @@ function App() {
                     <Route path="/contact" element={<ContactPage />} />
                     <Route path="/reality" element={<FromReality />} />
                     <Route path="/statistics" element={<Statistics />} />
+                    <Route path="/voices" element={<VoicesPage />} />
+                    <Route path="/legal" element={<LegalPage />} />
 
                 </Routes>
             </main>

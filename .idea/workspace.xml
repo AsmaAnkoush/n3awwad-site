@@ -5,7 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25092dd5-f9d8-4c3c-adb4-580850fa8f9a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/public/invite-exhibition.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/justice-scale.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/p3s1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/p3s2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/p3s3_.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/p3s4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/p3s5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/scales-of-justice.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/videos/child.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/LegalPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/VoicesPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Hero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hero.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/EventsPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/EventsPage.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Statistics.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Statistics.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +68,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/user/Desktop/ElecHub - Copy/public/videos",
+    "last_opened_file_path": "C:/Users/user/Desktop/ElecHub - Copy/public",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,8 +81,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\user\Desktop\ElecHub - Copy\public\videos" />
       <recent name="C:\Users\user\Desktop\ElecHub - Copy\public" />
+      <recent name="C:\Users\user\Desktop\ElecHub - Copy\public\videos" />
       <recent name="C:\Users\user\Desktop\ElecHub\src" />
       <recent name="C:\Users\user\Desktop\ElecHub\public" />
     </key>
@@ -104,7 +121,7 @@
       <workItem from="1753825647578" duration="1589000" />
       <workItem from="1754172307185" duration="35000" />
       <workItem from="1754597636564" duration="15978000" />
-      <workItem from="1755804849579" duration="648000" />
+      <workItem from="1755804849579" duration="10541000" />
     </task>
     <servers />
   </component>
